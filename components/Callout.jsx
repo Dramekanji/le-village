@@ -8,8 +8,8 @@ export default function Callout() {
         Réservez une table pour le déjeuner ou le dîner. Nous proposons
         également la vente à emporter, la livraison et des événements privés.
       </p>
-      {/* <div className="mt-6"><a href="https://wa.me/224000000000" className="btn">Make a Reservation</a></div> */}
-      <div className="hidden md:block">
+
+      <div>
         <a
           href="https://wa.me/224000000000"
           target="_blank"
