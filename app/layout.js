@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Le Village – West African Cuisine in Conakry",
+  title: "Le Village – Restaurant Africain",
   description:
     "Garba, Attiéké, Foutou banane and more—crafted with love at Le Village.",
 };
