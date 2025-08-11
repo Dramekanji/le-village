@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function NavBar() {
   const [open, setOpen] = useState(false);
@@ -10,7 +11,12 @@ export default function NavBar() {
       <nav className="container flex items-center justify-between py-4">
         {/* Logo */}
         <Link href="/" className="font-display text-2xl text-gold">
-          Le Village Logo
+          <Image
+            src="/images/le-village-logo-3.png"
+            alt="le village logo"
+            width={80}
+            height={80}
+          />
         </Link>
 
         {/* Centered Navigation Links */}

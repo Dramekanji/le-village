@@ -31,7 +31,7 @@ export default function Hero() {
           Conakry • Cuisine Africaine
         </span>
         <h1 className="font-display text-5xl md:text-6xl text-white leading-tight mt-3">
-          Soyez Les Bienvenues au <span className="text-gold">Village</span>
+          Bienvenue au <span className="text-gold">Village</span>
         </h1>
         <p className="mt-4 max-w-2xl text-stone/90">
           Garba, Attiéké, Foutou banane et plus. Preparés avec soin, finesse, et
@@ -42,13 +42,13 @@ export default function Hero() {
             href="/menu"
             className="inline-block rounded-md bg-gold px-5 py-3 text-ink font-semibold hover:brightness-105"
           >
-            View Menu
+            Le Menu
           </Link>
           <a
             href="tel:+224000000000"
             className="inline-block rounded-md border border-gold px-5 py-3 text-gold hover:bg-gold hover:text-ink"
           >
-            Call Us
+            Appelez Nous
           </a>
         </div>
       </div>

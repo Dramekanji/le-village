@@ -6,10 +6,10 @@ export default function ContactPage() {
     <>
       <NavBar />
       <section className="container py-16">
-        <h1 className="font-display text-5xl text-gold">Contactez-nous</h1>
+        <h1 className="font-display text-5xl text-gold">Contactez Nous</h1>
         <div className="mt-10 grid gap-10 md:grid-cols-2">
           <div className="rounded-lg bg-ink2 p-6">
-            <h3 className="font-semibold text-white">Visit Us</h3>
+            <h3 className="font-semibold text-white">Visitez Nous</h3>
             <p className="mt-2 text-sm">
               Nongo, Conakry, Guinea
               <br />
@@ -35,11 +35,11 @@ export default function ContactPage() {
             <div className="grid gap-4 md:grid-cols-2">
               <input
                 className="rounded-md bg-ink2 p-3 outline-none focus:ring-2 focus:ring-gold"
-                placeholder="First Name"
+                placeholder="Prenom"
               />
               <input
                 className="rounded-md bg-ink2 p-3 outline-none focus:ring-2 focus:ring-gold"
-                placeholder="Last Name"
+                placeholder="Nom"
               />
             </div>
             <input
@@ -48,14 +48,14 @@ export default function ContactPage() {
             />
             <input
               className="w-full rounded-md bg-ink2 p-3 outline-none focus:ring-2 focus:ring-gold"
-              placeholder="Phone"
+              placeholder="Téléphone"
             />
             <textarea
               rows={5}
               className="w-full rounded-md bg-ink2 p-3 outline-none focus:ring-2 focus:ring-gold"
-              placeholder="Your Message"
+              placeholder="Votre Message"
             />
-            <button className="btn">Send Message</button>
+            <button className="btn">Soumettre</button>
           </form>
         </div>
       </section>

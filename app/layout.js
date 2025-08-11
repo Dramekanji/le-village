@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Le Village – Restaurant Africain",
+  title: "Le Village - Restaurant Africain",
   description:
     "Garba, Attiéké, Foutou banane et plus. Preparés avec soin, finesse, et hospitalité.",
 };
